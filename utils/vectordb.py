@@ -11,6 +11,6 @@ def create_vector_store(documents, embeddings):
         collection_name=collection_name
     )
 
-    vectordb.persist()
+    
 
     return vectordb
